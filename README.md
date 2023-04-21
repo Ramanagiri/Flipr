@@ -2,4 +2,4 @@
 
 welcome Guys!
 
-this is flipr prject
+this is flipr project
