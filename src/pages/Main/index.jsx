@@ -4,7 +4,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import CopyrightIcon from "@mui/icons-material/Copyright";
-import logo from "../../images/white_logo.svg";
+import logo from "../../images/white_logo.png";
 import styles from "./styles.module.scss";
 
 const navLinks = [
@@ -55,7 +55,7 @@ const Main = () => {
 			</nav>
 			<main className={styles.main_container}>
 				<div className={styles.main}>
-					<h1>Listening is everything</h1>
+					<h1>Music is everywhere</h1>
 					<p>Millions of songs and podcasts. No credit card needed.</p>
 					<Link to="/signup">
 						<Button
