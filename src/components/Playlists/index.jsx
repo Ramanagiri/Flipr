@@ -23,6 +23,8 @@ const Playlists = ({ playlists }) => {
 				</Link>
 			))}
 		</Fragment>
+		
+		
 	);
 };
 

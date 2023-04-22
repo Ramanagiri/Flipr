@@ -6,6 +6,25 @@ import harris from "../../images/harris.png";
 
 const playlists = [
 	{ _id: 1, img: harris, name: "Today's Top Songs", desc: "By Ramanagiri" },
+	{ _id: 1, img: harris, name: "Today's Top Songs", desc: "By Ramanagiri" },
+	{ _id: 1, img: harris, name: "Today's Top Songs", desc: "By Ramanagiri" },
+	{ _id: 1, img: harris, name: "Today's Top Songs", desc: "By Ramanagiri" },
+	{ _id: 1, img: harris, name: "Today's Top Songs", desc: "By Ramanagiri" },
+	
+];
+const playlists1 = [
+	{ _id: 1, img: harris, name: "Today's Top Songs", desc: "By Ramanagiri" },
+	{ _id: 1, img: harris, name: "Today's Top Songs", desc: "By Ramanagiri" },
+	{ _id: 1, img: harris, name: "Today's Top Songs", desc: "By Ramanagiri" },
+	{ _id: 1, img: harris, name: "Today's Top Songs", desc: "By Ramanagiri" },
+	
+];
+const playlists2 = [
+	{ _id: 1, img: harris, name: "Today's Top Songs", desc: "By Ramanagiri" },
+	{ _id: 1, img: harris, name: "Today's Top Songs", desc: "By Ramanagiri" },
+	{ _id: 1, img: harris, name: "Today's Top Songs", desc: "By Ramanagiri" },
+	{ _id: 1, img: harris, name: "Today's Top Songs", desc: "By Ramanagiri" },
+	
 ];
 
 const Home = () => {
@@ -15,10 +34,15 @@ const Home = () => {
 				<h1>Good afternoon</h1>
 				<div className={styles.playlists_container}>
 					<Playlists playlists={playlists} />
+					
 				</div>
 				<h1>Just the hits</h1>
 				<div className={styles.playlists_container}>
-					<Playlists playlists={playlists} />
+					 <Playlists playlists={playlists1} />
+				</div>
+				<h1>Recommeded for you</h1>
+				<div className={styles.playlists_container}>
+					 <Playlists playlists={playlists2} />
 				</div>
 			</div>
 		</Fragment>
