@@ -60,7 +60,7 @@ const Main = () => {
 					<Link to="/signup">
 						<Button
 							label="GET HealMusic FREE"
-							style={{ color: "#2941ab", width: "18rem", fontSize: "1.4rem" }}
+							style={{ color: "white", width: "18rem", fontSize: "1.4rem" }}
 						/>
 					</Link>
 				</div>

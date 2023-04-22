@@ -3,7 +3,7 @@ import HomeIcon from "@mui/icons-material/Home";
 import SearchIcon from "@mui/icons-material/Search";
 import LibraryMusicIcon from "@mui/icons-material/LibraryMusic";
 import AddIcon from "@mui/icons-material/Add";
-import logo from "../../images/white_logo.svg";
+import logo from "../../images/white_logo.png";
 import likeImg from "../../images/like.jpg";
 import styles from "./styles.module.scss";
 
