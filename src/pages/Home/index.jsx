@@ -3,12 +3,15 @@ import Playlists from "../../components/Playlists";
 import styles from "./styles.module.scss";
 // import playlistImg from "../../images/rock.jpg";
 import harris from "../../images/harris.png";
+import beast from "../../images/beast.png"
+import pacha from "../../images/pacha.png"
+import rakita from "../../images/rakita.jpeg"
 
 const playlists = [
 	{ _id: 1, img: harris, name: "Today's Top Songs", desc: "By Ramanagiri" },
-	{ _id: 1, img: harris, name: "Today's Top Songs", desc: "By Ramanagiri" },
-	{ _id: 1, img: harris, name: "Today's Top Songs", desc: "By Ramanagiri" },
-	{ _id: 1, img: harris, name: "Today's Top Songs", desc: "By Ramanagiri" },
+	{ _id: 1, img: beast, name: "Today's Top Songs", desc: "By Ramanagiri" },
+	{ _id: 1, img: pacha, name: "Today's Top Songs", desc: "By Ramanagiri" },
+	{ _id: 1, img: rakita, name: "Today's Top Songs", desc: "By Ramanagiri" },
 	{ _id: 1, img: harris, name: "Today's Top Songs", desc: "By Ramanagiri" },
 	
 ];
