@@ -6,7 +6,14 @@ import likeImg from "../../images/like.jpg";
 import peaches from "../../images/peaches.jpg";
 
 const songs = [
-	{ _id: 1, img: peaches, name: "Peaches", artist: "Justin Bieber" },
+	{ _id: 1, img: peaches, name: "Thuli thuli", artist: "Haricharn"},
+	{ _id: 2, img: peaches, name: "Kannazhaga", artist: "Dhanush"},
+	{ _id: 3, img: peaches, name: "Poongatre", artist: "Benny Dayal"},
+	{ _id: 4, img: peaches, name: "Donu Donu", artist: "Dhanush"},
+	{ _id: 5, img: peaches, name: "Mynaa Mynaa", artist: "Shaan"},
+	{ _id: 6, img: peaches, name: "Jilla Theme", artist: "Hariharan"},
+	
+
 ];
 
 const LikedSongs = () => {

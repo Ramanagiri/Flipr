@@ -32,72 +32,8 @@ const Song = ({ song, playlist }) => {
 				)}
 			</div>
 		</div>
-		<div className={styles.song_container}>
-			<div className={styles.left}>
-				<IconButton className={styles.play_btn}>
-					<PlayArrowIcon />
-				</IconButton>
-				<img src={song.img} alt="src/images/rock.jpg" />
-				<p>{song.name}</p>
-			</div>
-			<div className={styles.center}>
-				<p>{song.artist}</p>
-			</div>
-			<div className={styles.right}>
-				<Like songId={song._id} />
-				<p>5.31</p>
-				<IconButton className={styles.menu_btn} onClick={() => setMenu(true)}>
-					<MoreHorizIcon />
-				</IconButton>
-				{menu && (
-					<PlaylistMenu playlist={playlist} closeMenu={() => setMenu(false)} />
-				)}
-			</div>
-		</div>
-		<div className={styles.song_container}>
-			<div className={styles.left}>
-				<IconButton className={styles.play_btn}>
-					<PlayArrowIcon />
-				</IconButton>
-				<img src={song.img} alt="song_img" />
-				<p>{song.name}</p>
-			</div>
-			<div className={styles.center}>
-				<p>{song.artist}</p>
-			</div>
-			<div className={styles.right}>
-				<Like songId={song._id} />
-				<p>3.43</p>
-				<IconButton className={styles.menu_btn} onClick={() => setMenu(true)}>
-					<MoreHorizIcon />
-				</IconButton>
-				{menu && (
-					<PlaylistMenu playlist={playlist} closeMenu={() => setMenu(false)} />
-				)}
-			</div>
-		</div>
-		<div className={styles.song_container}>
-			<div className={styles.left}>
-				<IconButton className={styles.play_btn}>
-					<PlayArrowIcon />
-				</IconButton>
-				<img src={song.img} alt="song_img" />
-				<p>{song.name}</p>
-			</div>
-			<div className={styles.center}>
-				<p>{song.artist}</p>
-			</div>
-			<div className={styles.right}>
-				<Like songId={song._id} />
-				<p>4.30</p>
-				<IconButton className={styles.menu_btn} onClick={() => setMenu(true)}>
-					<MoreHorizIcon />
-				</IconButton>
-				{menu && (
-					<PlaylistMenu playlist={playlist} closeMenu={() => setMenu(false)} />
-				)}
-			</div>
-		</div>
+		
+		
 		</>
 		
 	);
