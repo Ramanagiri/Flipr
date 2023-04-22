@@ -17,6 +17,7 @@ const playlists1 = [
 	{ _id: 1, img: harris, name: "Today's Top Songs", desc: "By Ramanagiri" },
 	{ _id: 1, img: harris, name: "Today's Top Songs", desc: "By Ramanagiri" },
 	{ _id: 1, img: harris, name: "Today's Top Songs", desc: "By Ramanagiri" },
+	{ _id: 1, img: harris, name: "Today's Top Songs", desc: "By Ramanagiri" },
 	
 ];
 const playlists2 = [
