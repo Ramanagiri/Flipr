@@ -3,15 +3,20 @@ import Song from "../../components/Song";
 import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import styles from "./styles.module.scss";
 import likeImg from "../../images/like.jpg";
-import peaches from "../../images/peaches.jpg";
+import pacha from "../../images/pacha.png"
+import billa from "../../images/songpics/billa.png"
+import vip from "../../images/songpics/vip.png"
+import sivaji from "../../images/songpics/sivaji.png"
+import maari from "../../images/songpics/maari.png"
+import jilla from "../../images/songpics/jilla.png"
 
 const songs = [
-	{ _id: 1, img: peaches, name: "Thuli thuli", artist: "Haricharn"},
-	{ _id: 2, img: peaches, name: "Kannazhaga", artist: "Dhanush"},
-	{ _id: 3, img: peaches, name: "Poongatre", artist: "Benny Dayal"},
-	{ _id: 4, img: peaches, name: "Donu Donu", artist: "Dhanush"},
-	{ _id: 5, img: peaches, name: "Mynaa Mynaa", artist: "Shaan"},
-	{ _id: 6, img: peaches, name: "Jilla Theme", artist: "Hariharan"},
+	{ _id: 1, img: vip, name: "oothu sangu", artist: "Haricharn"},
+	{ _id: 2, img: billa , name: "billa villa", artist: "Dhanush"},
+	{ _id: 3, img: sivaji, name: "athiradi than", artist: "Benny Dayal"},
+	{ _id: 4, img: maari, name: "Donu Donu", artist: "Dhanush"},
+	{ _id: 5, img: pacha, name: "pacha elai", artist: "Shaan"},
+	{ _id: 6, img: jilla, name: "Jilla Theme", artist: "Hariharan"},
 	
 
 ];

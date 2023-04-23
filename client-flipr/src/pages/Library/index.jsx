@@ -1,10 +1,16 @@
 import { Link } from "react-router-dom";
 import Playlists from "../../components/Playlists";
-import playlistImg from "../../images/rock.jpg";
 import styles from "./styles.module.scss";
-import Playlists1 from "../../components/Playlists 1";
+// import Playlists1 from "../../components/Playlists 1";
+import kaithi from "../../images/songpics/kaithi.png"
+import vikram from "../../images/songpics/vikram.png"
+import vip from "../../images/songpics/vip.png"
+import maari from "../../images/songpics/maari.png"
 const playlists = [
-	{ _id: 1, img: playlistImg, name: "Today's Top Songs", desc: "By Ramanagiri" },
+	{ _id: 1, img: maari, name: "Today's Top Songs", desc: "By Ramanagiri" },
+	{ _id: 1, img: kaithi, name: "Today's Top Songs", desc: "By Ramanagiri" },
+	{ _id: 1, img: vikram, name: "Today's Top Songs", desc: "By Ramanagiri" },
+	{ _id: 1, img: vip, name: "Today's Top Songs", desc: "By Ramanagiri" },
 ];
 
 const Library = () => {
@@ -18,17 +24,6 @@ const Library = () => {
 						<p>1 Liked Songs</p>
 					</div>
 				</Link>
-				<Playlists playlists={playlists} />
-				<Playlists1 playlists={playlists} />
-				<Playlists playlists={playlists} />
-				<Playlists playlists={playlists} />
-				<Playlists playlists={playlists} />
-				<Playlists playlists={playlists} />
-				<Playlists playlists={playlists} />
-				<Playlists playlists={playlists} />
-				<Playlists playlists={playlists} />
-				<Playlists playlists={playlists} />
-				<Playlists playlists={playlists} />
 				<Playlists playlists={playlists} />
 			</div>
 		</div> 
