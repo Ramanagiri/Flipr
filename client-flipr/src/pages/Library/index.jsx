@@ -7,10 +7,10 @@ import vikram from "../../images/songpics/vikram.png"
 import vip from "../../images/songpics/vip.png"
 import maari from "../../images/songpics/maari.png"
 const playlists = [
-	{ _id: 1, img: maari, name: "Today's Top Songs", desc: "By Ramanagiri" },
-	{ _id: 1, img: kaithi, name: "Today's Top Songs", desc: "By Ramanagiri" },
-	{ _id: 1, img: vikram, name: "Today's Top Songs", desc: "By Ramanagiri" },
-	{ _id: 1, img: vip, name: "Today's Top Songs", desc: "By Ramanagiri" },
+	{ _id: 1, img: maari, name: "Top Dhanush Songs", desc: "By Ramanagiri" },
+	{ _id: 1, img: kaithi, name: "Top Karthi Songs", desc: "By Ramanagiri" },
+	{ _id: 1, img: vikram, name: "Top Kamal Songs", desc: "By Ramanagiri" },
+	{ _id: 1, img: vip, name: "Top Aniruth Songs", desc: "By Ramanagiri" },
 ];
 
 const Library = () => {
