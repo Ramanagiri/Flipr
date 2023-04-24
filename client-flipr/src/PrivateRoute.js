@@ -7,7 +7,7 @@ const PrivateRoute = ({ component: Component, user, ...rest }) => {
 		color: "#ffffff",
 		minHeight: "calc(100vh - 6rem)",
 	};
-
+//\\
 	return (
 		<Route
 			{...rest}
